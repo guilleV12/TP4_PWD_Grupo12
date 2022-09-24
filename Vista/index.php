@@ -72,6 +72,14 @@
                 <a href="CambioDuenio.php" class="card-link">Ir a CambioDuenio.php</a>
             </div>
         </div>
+        <div class="card m-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Personas</h5>
+                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                <p class="card-text">Cambiar datos de una persona.</p>
+                <a href="BuscarPersona.php" class="card-link">Ir a BuscarPersona.php</a>
+            </div>
+        </div>
     </div>
     
 </body>
