@@ -107,12 +107,7 @@ class AbmAuto{
         if ($param<>NULL){
             if  (isset($param['Patente']))
             $where.=" and Patente ='".$param['Patente']."'";
-            if  (isset($param['Marca']))
-            $where.=" and Marca ='".$param['Marca']."'";
-            if  (isset($param['Modelo']))
-            $where.=" and Modelo ='".$param['Modelo']."'";
-            if  (isset($param['DniDuenio']))
-            $where.=" and DniDuenio ='".$param['DniDuenio']."'";
+          
         }
         $arreglo = Auto::listar($where); 
 

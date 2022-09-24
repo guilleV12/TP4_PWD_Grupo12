@@ -40,6 +40,22 @@
                 <a href="ListaPersona.php" class="card-link">Ir a ListaPersona.php</a>
             </div>
         </div>
+        <div class="card m-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Personas</h5>
+                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                <p class="card-text">Buscar los autos que estan registrados a un DNI.</p>
+                <a href="AutosPersona.php" class="card-link">Ir a AutosPersona.php</a>
+            </div>
+        </div>
+        <div class="card m-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Personas</h5>
+                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                <p class="card-text">Ingresar una nueva persona.</p>
+                <a href="NuevaPersona.php" class="card-link">Ir a NuevaPersona.php</a>
+            </div>
+        </div>
 
     </div>
     

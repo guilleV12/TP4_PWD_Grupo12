@@ -57,8 +57,6 @@ class AbmPersona{
         $resp = false;
         //$param['NroDni'] =null;
         $unObjPersona = $this->cargarObjeto($param);
-        /* echo "
-        verEstructura($unObjPersona); */
         if ($unObjPersona!=null and $unObjPersona->insertar()){
             $resp = true;
         }
@@ -116,10 +114,6 @@ class AbmPersona{
         if ($param<>NULL){
             if  (isset($param['NroDni']))
                 $where.=" and NroDni ='".$param['NroDni']."'";
-            if  (isset($param['Apellido']))
-                 $where.=" and Apellido ='".$param['Apellido']."'";
-            if  (isset($param['Nombre']))
-                 $where.=" and Nombre ='".$param['Nombre']."'";
         }
         $arreglo = Persona::listar($where);  
         return $arreglo;

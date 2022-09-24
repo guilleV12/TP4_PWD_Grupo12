@@ -50,6 +50,7 @@
 
 <a href="index.php"><button class="btn btn-primary " type="button">Volver al Menu Principal</button></a>
 <a href="AutosPersona.php"><button class="btn btn-primary " type="button">Ir a AutosPersona.php</button></a>
+<a href="NuevaPersona.php"><button class="btn btn-primary " type="button">Ir a NuevaPersona.php</button></a>
 
     
 </body>

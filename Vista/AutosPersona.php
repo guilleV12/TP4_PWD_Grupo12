@@ -33,7 +33,7 @@
                 </div>
             <input style="width:100%" class="btn btn-primary mt-2" type="submit" value="Buscar"><br>
             <a href="index.php"><button class="btn btn-primary mt-3" style="width:100%" type="button">Volver al Menu Principal</button></a>
-        <br><a href="ListaPersona.php"><button class="btn btn-primary mt-3" style="width:100%" type="button">Volver a ListaPersona.php</button></a>
+        <br><a href="ListaPersona.php"><button class="btn btn-primary mt-3" style="width:100%" type="button">Ir a ListaPersona.php</button></a>
    
         </div>
         
