@@ -19,8 +19,7 @@
         
         $listaPersonas = $objPersona->buscar($datos);
         if (count($listaPersonas) == 1 ){
-            $datosModificacion = ["NroDni"=>$listaPersonas[0]->getNroDni(),"Apellido"=>$listaPersonas[0]->getApellido(),"Nombre"=>$listaPersonas[0]->getNombre(),"fechaNac"=>$listaPersonas[0]->getFechaNac(),"Domicilio"=>$listaPersonas[0]->getDomicilio()];
-            if ($objPersona->modificacion($datosModificacion)){
+            if ($objPersona->modificacion($datos)){
                 $mensaje = "Los datos de la persona fueron modificados";
             }else{
                 $mensaje= "La persona no se modifico.";
