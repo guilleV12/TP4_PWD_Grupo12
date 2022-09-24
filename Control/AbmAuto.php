@@ -10,7 +10,7 @@ class AbmAuto{
      * @return Auto
      */
     private function cargarObjeto($param){
-        $obj = null;
+        $objAuto = null;
            
         if( array_key_exists('Patente',$param) and array_key_exists('Marca',$param) and array_key_exists('Modelo',$param) and array_key_exists('DniDuenio',$param)){
             $objAuto = new Auto();

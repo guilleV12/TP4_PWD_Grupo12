@@ -56,7 +56,22 @@
                 <a href="NuevaPersona.php" class="card-link">Ir a NuevaPersona.php</a>
             </div>
         </div>
-
+        <div class="card m-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Autos</h5>
+                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                <p class="card-text">Ingresar un nuevo auto.</p>
+                <a href="NuevoAuto.php" class="card-link">Ir a NuevoAuto.php</a>
+            </div>
+        </div>
+        <div class="card m-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Autos</h5>
+                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                <p class="card-text">Cambiar duenio de un auto.</p>
+                <a href="CambioDuenio.php" class="card-link">Ir a CambioDuenio.php</a>
+            </div>
+        </div>
     </div>
     
 </body>
